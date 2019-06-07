@@ -4,7 +4,7 @@
 
 <form autocomplete="off">
     <div class="form-group">
-        <button (click)="doLogin()">Refresh Token</button>
+        <button class="btn btn-primary" (click)="doLogin()">Refresh Token</button>
         <br /><br />
         <input class="form-control" type="text" placeholder="Type Here to Search Artists..." [(ngModel)]="searchStr"
             name="searchStr" (keyup)="searchMusic()">
