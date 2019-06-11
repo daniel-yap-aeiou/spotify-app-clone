@@ -30,13 +30,13 @@ export class CallbackComponent implements OnInit {
         localStorage.setItem("spotify-accesstoken", this.hash.access_token);
 
         window.close();
-        // if (hash.access_token) {
-        //     window.opener.postMessage(JSON.stringify({
-        //         type: 'access_token',
-        //         access_token: hash.access_token,
-        //         expires_in: hash.expires_in || 0
-        //     }), '*');
-        //     window.close();
-        // }
+        if (this.hash.access_token) {
+            window.opener.postMessage(JSON.stringify({
+                type: 'access_token',
+                access_token: this.hash.access_token,
+                expires_in: this.hash.expires_in || 0
+            }), '*');
+            window.close();
+        }
     }
 }

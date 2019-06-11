@@ -47,8 +47,7 @@ export class SearchComponent implements OnInit {
     login(callback) {
 
         var CLIENT_ID = 'bf511d7125384b7ea85a959e62dff61b';
-        //var REDIRECT_URI = 'http://localhost:4200/callback/';
-        var REDIRECT_URI = 'https://ngspotify-test.web.app/callback';
+        var REDIRECT_URI = 'http://localhost:4200/callback/';
 
         function getLoginURL(scopes) {
             return 'https://accounts.spotify.com/authorize?client_id=' + CLIENT_ID +
