@@ -53,7 +53,7 @@
   "main": "app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwill9999/SpotifyApp.git"
+    "url": "https://github.com/daniel-yap-aeiou/ngspotify-app.git"
   },
   "keywords": [
     "spotify",
@@ -63,12 +63,12 @@
     "search"
   ],
   "author": {
-    "name": "Jason Williams",
-    "email": "jwill9999@icloud.com",
-    "url": "https://jwill9999.github.io/SpotifyApp/"
+    "name": "Daniel Yap",
+    "email": "danielytf@gmail.com",
+    "url": "https://github.com/daniel-yap-aeiou/ngspotify-app"
   },
   "bugs": {
-    "url": "https://github.com/jwill9999/SpotifyApp/issues"
+    "url": "https://github.com/daniel-yap-aeiou/ngspotify-app/issues"
   },
-  "homepage": "https://github.com/jwill9999/SpotifyApp#readme"
+  "homepage": "https://github.com/daniel-yap-aeiou/ngspotify-app"
 }
