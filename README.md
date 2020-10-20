@@ -12,3 +12,6 @@ $ ng serve
 Open http://localhost:4200/ in your browser.
 <br/>
 <br/>
+
+
+![Snapshot](https://github.com/daniel-yap-aeiou/ngspotify-app/blob/master/img/SpotifyApp%20-%20Google%20Chrome%202020-10-20%2014-04-30.gif)
