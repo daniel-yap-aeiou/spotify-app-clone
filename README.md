@@ -3,6 +3,11 @@ Latest working spotify api authentication 2019.
 <br/><br/>
 How to run:
 <br/>
+Make sure you enter your client id and client secret obtained from the Official Spotify Website.
+<br/>
+To edit, head to SpotifyApp\src\app\services\spotify.service.ts (Line 26 & 27)
+<br/>
+<br/>
 $ npm install
 <br/>
 $ ng serve
