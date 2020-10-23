@@ -53,7 +53,7 @@
   "main": "app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/daniel-yap-aeiou/ngspotify-app.git"
+    "url": "https://github.com/daniel-yap-aeiou/web-spotify-app.git"
   },
   "keywords": [
     "spotify",
@@ -65,10 +65,10 @@
   "author": {
     "name": "Daniel Yap",
     "email": "danielytf@gmail.com",
-    "url": "https://github.com/daniel-yap-aeiou/ngspotify-app"
+    "url": "https://github.com/daniel-yap-aeiou/web-spotify-app"
   },
   "bugs": {
-    "url": "https://github.com/daniel-yap-aeiou/ngspotify-app/issues"
+    "url": "https://github.com/daniel-yap-aeiou/web-spotify-app/issues"
   },
-  "homepage": "https://github.com/daniel-yap-aeiou/ngspotify-app"
+  "homepage": "https://github.com/daniel-yap-aeiou/web-spotify-app"
 }
