@@ -18,10 +18,10 @@
       "es2017",
       "dom"
     ],
-    "include": [
-      "node_modules/core-js/es6/*",
-      "node_modules/zone.js/dist/zone",
-    ],
+    // "include": [
+    //   "node_modules/core-js/es6/*",
+    //   "node_modules/zone.js/dist/zone",
+    // ],
   }
 }
 
