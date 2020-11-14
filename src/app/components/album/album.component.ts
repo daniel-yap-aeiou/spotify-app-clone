@@ -3,7 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { Artist } from '../../Artist';
 import { Album } from '../../Album';
 import { SpotifyService } from '../../services/spotify.service';
-import { pipe } from '@angular/core/src/render3';
+import { Pipe } from '@angular/core';
 import { map } from 'rxjs/operators';
 
 @Component({
