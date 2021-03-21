@@ -23,8 +23,8 @@ export class SpotifyService {
         let params = new HttpParams();
         params.append('grant_type', 'client_credentials');
         //let params = ('grant_type=client_credentials');
-        let client_id = ''; // Your client id
-        let client_secret = ''; // Your secret
+        let client_id = 'bf511d7125384b7ea85a959e62dff61b'; // Your client id
+        let client_secret = '2ac44b65a89b4f3290b6384f09b644c4'; // Your secret
         let encoded = btoa(client_id + ':' + client_secret);
         let headers = new HttpHeaders();
         headers.append('Authorization', 'Basic ' + encoded);
